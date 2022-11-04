@@ -1,5 +1,5 @@
 provider "aws" {
-region = "us-east-1"
+region = "us-east-2"
 }
 resource "aws_instance" "myawsserver" {
   ami = "ami-077e31c4939f6a2f3"
@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   #key_name = "gagan-import"
 
   tags = {
-    Name = "Gagan-DevOps-server"
+    Name = "Abhinav-DevOps-server"
     env = "Development"
     owner = "Gagandeep Singh"
   }
